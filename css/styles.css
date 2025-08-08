@@ -37,6 +37,11 @@ p {
   margin-bottom: 10px;
 }
 
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .separator {
   margin: 20px auto;
   height: 10px;
@@ -60,6 +65,17 @@ p {
 .btn-primary:hover {
   background: #222;
   color: white;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
 /* Header */
@@ -134,4 +150,28 @@ p {
   overflow: auto;
   padding: 100px 0;
   text-align: center;
+}
+
+
+.person {
+  height: 400px;
+  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe3.jpg)
+    center center/cover;
+}
+
+
+.reservation {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
